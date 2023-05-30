@@ -7,11 +7,11 @@
 // Ex. n=10 produces '0, 1, 1, 2, 3, 5, 8, 13, 21, 34'
 
 function fibonacciCount(position: number) {
-  let fibArrary: number[] = [0, 1];
-  for (let i = fibArrary.length; i < position; i++) {
-    fibArrary[i] = fibArrary[i - 2] + fibArrary[i - 1];
-  }
-  return fibArrary;
+	let fibArrary: number[] = [0, 1];
+	for (let i = fibArrary.length; i < position; i++) {
+		fibArrary[i] = fibArrary[i - 2] + fibArrary[i - 1];
+	}
+	return fibArrary;
 }
 
 console.clear();
